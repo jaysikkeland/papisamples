@@ -1,5 +1,5 @@
 # PAPI Hello World Python Code Snippets
-The following Python code samples are intended to help Python developers new to the Akamai Property Manager API (aka PAPI), get up and running and gain confidence within about an hour.<br>
+The following Python code snippets are intended to help Python developers new to the Akamai Property Manager API (aka PAPI), get up and running and gain confidence within about an hour.<br>
 While the sample code snippets are written in Python, developers using other programming languages can follow these examples and adapt to their programming environments.<br>
 <br>
 
@@ -7,9 +7,9 @@ Prerequisites:
 - An Akamai portal login userid and password (https://control.akamai.com)<br>
 - Python 2 or 3 installed<br>
 - Install requests module<br>
+<br>
 
-
-We recommended going through the sample snippets above in the order of step1, step2, etc.  While you can jump ahead to whichever code snippet you want 
+We recommended going through the sample snippets above in the order of step1, step2, etc.  While you can jump ahead to whichever code snippet you want, it may be easier to follow in the intended order.<br>
 
 These code snippets are not intended to:
 - Teach you everything about PAPI.  These are very simple code snippets intended to get you up and running quickly, ready to explore more.  See further PAPI code samples here
