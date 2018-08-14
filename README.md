@@ -1,4 +1,4 @@
-# PAPI Hello World Sample Python Code Snippets
+# PAPI Hello World Python Code Snippets
 The following Python code samples are intended to help Python developers new to the Akamai Property Manager API (aka PAPI), get up and running and gain confidence within about an hour.<br>
 While the sample code snippets are written in Python, developers using other programming languages can follow these examples and adapt to their programming environments.<br>
 <br>
