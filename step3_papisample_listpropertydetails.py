@@ -23,7 +23,7 @@ from akamai.edgegrid import EdgeGridAuth, EdgeRc
 # --- REPLACE BEGIN ---
 #
 # Edgegrid credentials file and section
-edgerc = EdgeRc('/Users/jsikkela/.edgerc')
+edgerc = EdgeRc('.edgerc')
 # Edgegrid credentials section
 section = 'default'
 # Hostname of the property you want to search for
