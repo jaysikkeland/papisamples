@@ -30,7 +30,7 @@ For more information about Akamai APIs, see the [{OPEN} Developer Site](https://
 Clone this repository, then _create a new file called `.edgerc` in the main directory of the project_ with your own PAPI credentials:
 
 ```plaintext
-[papi]
+[default]
 host = akaa-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.luna.akamaiapis.net/
 client_token = akab-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 client_secret = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=
@@ -41,19 +41,10 @@ max-body = 131072
 Then run the following commands:
 
 ```bash
-# install dependencies
-$ npm install
-# move Angular source to public/js
-$ cp node_modules/angular/angular.* public/js/
-$ cp node_modules/angular-route/angular-route.* public/js/
-$ cp node_modules/angular-resource/angular-resource.* public/js/
-$ cp node_modules/angular-loading-bar/build/loading-bar.* public/lib/
-$ cp node_modules/angular-toarrayfilter/toArrayFilter.* public/js
-# run server
-$ npm start
+$./step1
+$./step2
 ```
 
-Go to http://localhost:3000/ and wait a few seconds to see a listing of PAPI groups.
 
 ## License
 
