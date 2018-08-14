@@ -6,26 +6,31 @@ While the sample code snippets are written in Python, developers using other pro
 Prerequisites:
 - An Akamai portal login userid and password (https://control.akamai.com)<br>
 - Python 2 or 3 installed<br>
-- Install requests module<br>
 <br>
 
 We recommended going through the sample snippets above in the order of step1, step2, etc.  While you can jump ahead to whichever code snippet you want, it may be easier to follow in the intended order.<br>
+
+After you download the snippets or clone this repository, open the files and edit the lines between -- REPLACE BEGING -- and -- REPLACE END --
 
 These code snippets are not intended to:
 - Teach you everything about PAPI.  These are very simple code snippets intended to get you up and running quickly, ready to explore more.  See further PAPI code samples here
 - Other Open APIs besides PAPI.  While PAPI is central to most Akamai onboarding and configuration automation, other Open APIs are often also used.  These include Purge, CPS, SPS, FastDNS, Reporting, Billing, Diagnostics and various Cloudlets.
 
-Video<br>
-[![PAPI Sample Code](http://img.youtube.com/vi/Z_d9vYNL42c/0.jpg)](http://www.youtube.com/watch?v=Z_d9vYNL42c "PAPI Sample Code")
 Playlist<br>
 [![PAPI Sample Code](https://img.youtube.com/vi/3YMJdhjVh8Y/0.jpg)](https://www.youtube.com/embed/videoseries?list=PL01azkzCBGf8AqL7aDnCZRFjqzuVbOXc1 "PAPI Sample Code")
-
 
 For more information about Akamai APIs, see the [{OPEN} Developer Site](https://developer.akamai.com/).
 
 ## Quick Install
 
-Clone this repository, then _create a new file called `.edgerc` in the main directory of the project_ with your own PAPI credentials:
+Install required python modules:
+
+```bash
+$pip3 install requests
+$pip3 install edgegrid-python
+```
+
+Clone this repository, then _create a new file called `.edgerc` in the main directory of the project_ with your own PAPI credentials (watch the video for details):
 
 ```plaintext
 [default]
@@ -36,11 +41,15 @@ access_token = akab-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 max-body = 131072
 ```
 
-Then run the following commands:
+Edit each sample code file and replace values in the REPLACE BEGIN and REPLACE END section with your information.  Review the code to understand what the snippet does.
+
+Finally, run the sample code:
 
 ```bash
-$./step1
-$./step2
+$./step1_papisample_listgroups.py
+$./step2_papisample_listproperties.py
+$./step3_papisample_listpropertydetails.py
+$./step4_papisample_updatepropertyruletree.py
 ```
 
 
