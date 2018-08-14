@@ -1,5 +1,6 @@
 # PAPI Hello World Python Code Snippets
 The following Python code snippets are intended to help Python developers new to the Akamai Property Manager API (aka PAPI), get up and running and gain confidence within about an hour.<br>
+<br>
 While the sample code snippets are written in Python, developers using other programming languages can follow these examples and adapt to their programming environments.<br>
 <br>
 
@@ -10,13 +11,13 @@ Prerequisites:
 
 We recommended going through the sample snippets above in the order of step1, step2, etc.  While you can jump ahead to whichever code snippet you want, it may be easier to follow in the intended order.<br>
 
-After you download the snippets or clone this repository, open the files and edit the lines between -- REPLACE BEGING -- and -- REPLACE END --
+After you download the snippets or clone this repository, open the files, review all the comments, and edit the lines between -- REPLACE BEGING -- and -- REPLACE END --
 
 These code snippets are not intended to:
 - Teach you everything about PAPI.  These are very simple code snippets intended to get you up and running quickly, ready to explore more.  See further PAPI code samples here
 - Other Open APIs besides PAPI.  While PAPI is central to most Akamai onboarding and configuration automation, other Open APIs are often also used.  These include Purge, CPS, SPS, FastDNS, Reporting, Billing, Diagnostics and various Cloudlets.
 
-Playlist<br>
+PAPI Intro<br>
 [![PAPI Sample Code](https://img.youtube.com/vi/3YMJdhjVh8Y/0.jpg)](https://www.youtube.com/embed/videoseries?list=PL01azkzCBGf8AqL7aDnCZRFjqzuVbOXc1 "PAPI Sample Code")
 
 For more information about Akamai APIs, see the [{OPEN} Developer Site](https://developer.akamai.com/).
