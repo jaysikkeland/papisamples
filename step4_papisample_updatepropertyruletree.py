@@ -27,9 +27,9 @@ from akamai.edgegrid import EdgeGridAuth, EdgeRc
 edgerc = EdgeRc('.edgerc')
 # Edgegrid credentials section
 section = 'default'
-# Property id to be updated. Obtain the property id from by downloading property rule tree. See papisample_listpropertydetails.py
+# Property id to be updated. Obtain the property id from by downloading property rule tree. See step3_papisample_listpropertydetails.py
 property_id = "prp_477692"
-# json rule tree file.  Obtain a starting point by first downloading a property rule tree. See papisample_listpropertydetails.py
+# json rule tree file.  Obtain a starting point by first downloading a property rule tree. See step3_papisample_listpropertydetails.py
 ruletree_file = "rules.json"
 #
 # --- REPLACE END ---
