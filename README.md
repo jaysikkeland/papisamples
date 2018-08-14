@@ -1,4 +1,4 @@
-# papisamples
+# PAPI Samples
 PAPI Sample Code
 Foo
 
