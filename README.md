@@ -11,10 +11,10 @@ Prerequisites:
 
 We recommended going through the sample snippets above in the order of step1, step2, etc.  While you can jump ahead to whichever code snippet you want, it may be easier to follow in the intended order.<br>
 
-After you download the snippets or clone this repository, open the files, review all the comments, and edit the lines between -- REPLACE BEGING -- and -- REPLACE END --
+After you download the snippets or clone this repository, open the files, review all the comments, and edit the lines between -- REPLACE BEGIN -- and -- REPLACE END --
 
 These code snippets are not intended to:
-- Teach you everything about PAPI.  These are very simple code snippets intended to get you up and running quickly, ready to explore more.  See further PAPI code samples here
+- Teach you everything about PAPI.  These are very simple code snippets intended to get you up and running quickly, ready to explore more.  See further PAPI code samples here:  https://github.com/akamai/api-kickstart
 - Other Open APIs besides PAPI.  While PAPI is central to most Akamai onboarding and configuration automation, other Open APIs are often also used.  These include Purge, CPS, SPS, FastDNS, Reporting, Billing, Diagnostics and various Cloudlets.
 
 PAPI Intro Video<br>
@@ -24,14 +24,14 @@ For more information about Akamai APIs, see the [{OPEN} Developer Site](https://
 
 ## Quick Install
 
-Install required python modules:
+Install required python modules (For python 2, use `pip` instead of `pip3`):
 
 ```bash
 $pip3 install requests
 $pip3 install edgegrid-python
 ```
 
-Clone this repository, then _create a new file called `.edgerc` in the main directory of the project_ with your own PAPI credentials (watch the video for details):
+Clone this repository (alternatively you can also just copy/save the code samples to a local directory), then _create a new file called `.edgerc` in the main directory of the project_ with your own PAPI credentials (create "New API Client for me" from the Akamai portal / Configure/Manage APIs menu).  Watch the video above for details):
 
 ```plaintext
 [default]
@@ -42,9 +42,9 @@ access_token = akab-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 max-body = 131072
 ```
 
-Edit each sample code file and replace values in the REPLACE BEGIN and REPLACE END section with your information.  Review the code to understand what the snippet does.
+For each sample code file, review the code until you understand what it does, then edit each file and replace values in the REPLACE BEGIN and REPLACE END section with your information if necessary.  Pay special attention to the credentials which are specified in the `edgerc` and `section` variables.
 
-Finally, run the sample code:
+Finally, to run the sample code:
 
 ```bash
 $./step1_papisample_listgroups.py
